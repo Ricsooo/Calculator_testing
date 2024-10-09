@@ -17,14 +17,14 @@ def test_substract():
     assert substract(0,0) == 0
 
 def test_multiply():
-    assert add(1, 2) == 2
-    assert add(5,5) == 25
-    assert add(-1,1) == -1
-    assert add(-1,-1) == 1
-    assert add(0,0) == 0
+    assert multiply(1, 2) == 2
+    assert multiply(5,5) == 25
+    assert multiply(-1,1) == -1
+    assert multiply(-1,-1) == 1
+    assert multiply(0,0) == 0
     
 def test_divide():
-    assert add(2, 2) == 1
-    assert add(5,5) == 1
-    assert add(31,1) == 31
-    assert add(-1,-1) == 1
+    assert divide(2, 2) == 1
+    assert divide(5,5) == 1
+    assert divide(31,1) == 31
+    assert divide(-1,-1) == 1
